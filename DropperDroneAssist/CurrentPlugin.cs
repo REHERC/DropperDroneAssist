@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Spectrum.API.Configuration;
 
 namespace DropperDroneAssist
@@ -30,5 +26,4 @@ namespace DropperDroneAssist
 
         public static Settings Config;
     }
-    
 }
