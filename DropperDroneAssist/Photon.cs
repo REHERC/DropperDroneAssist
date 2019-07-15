@@ -1,5 +1,4 @@
-﻿using Events;
-using Spectrum.API.Interfaces.Plugins;
+﻿using Spectrum.API.Interfaces.Plugins;
 using Spectrum.API.Interfaces.Systems;
 using UnityEngine;
 
@@ -13,7 +12,7 @@ namespace DropperDroneAssist
             Events.DropperDroneStateChange.SubscribeAll(DropperDroneStateChange_EventHandler);
         }
 
-        private void DropperDroneStateChange_EventHandler(GameObject sender, DropperDroneStateChange.Data data)
+        private void DropperDroneStateChange_EventHandler(GameObject sender, Events.DropperDroneStateChange.Data data)
         {
             switch (data.state_)
             {

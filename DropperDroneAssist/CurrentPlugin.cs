@@ -17,7 +17,7 @@ namespace DropperDroneAssist
             {
                 result = Config.GetItem<string>(Value);
             }
-            catch (Exception VirusSpirit)
+            catch (Exception)
             {
                 result = Default;
             }
